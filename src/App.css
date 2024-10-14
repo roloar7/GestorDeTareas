@@ -1,0 +1,95 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #1d1d1d;
+}
+
+.task-icon {
+  width: 100px;
+}
+
+.titulo{
+  color: white;
+  font-size: 50px;
+}
+
+.form-box {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 500px;
+  background-color: #2b2b2b;
+  border: #1d1d1d;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #25d162;
+  border: #25d162;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #25d162;
+  border: #25d162;
+}
+
+.line-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.line {
+  background-color: white;
+  width: 60%;
+  height: 3px;
+}
+
+.task-list-box {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.task-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.task {
+  background-color: #2b2b2b;
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container-edit-trash {
+ padding-left: 15px;
+}
+
+.edit-trash-box {
+  background-color: #25d162;
+  border-radius: 10px;
+  height: 35px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.line-a{
+  background-color: black;
+  width: 3px;
+  height: 25px;
+}
